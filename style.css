@@ -1,0 +1,30 @@
+body {
+  background-color: grey;
+}
+.sheet {
+  border-radius: 16px;
+  background-color: white;
+  width: 350px;
+}
+.sheet img {
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+#characters {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+h1 {
+  text-align: center;
+}
+img {
+  justify-self: center;
+  align-self: center;
+}
+.sheet p {
+  padding-left: 20px;
+}
