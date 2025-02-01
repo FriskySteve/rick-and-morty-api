@@ -1,5 +1,10 @@
 body {
   background-color: grey;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
 }
 .sheet {
   border-radius: 16px;
@@ -12,11 +17,12 @@ body {
   justify-content: center;
   padding-top: 20px;
 }
-#characters {
+#characters-container {
   display: flex;
   flex-direction: row;
   gap: 20px;
   flex-wrap: wrap;
+  font-size: 36px;
 }
 h1 {
   text-align: center;
@@ -27,4 +33,16 @@ img {
 }
 .sheet p {
   padding-left: 20px;
+}
+#filters-container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+#btn-prev,
+#btn-next {
+  width: 60px;
+  height: 40px;
+  background-color: blue;
+  color: azure;
 }
